@@ -1,0 +1,181 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #1e3a5f;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin-top: 15px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ffd166;
+}
+
+main {
+    padding: 40px;
+}
+
+.banner {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.banner h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.banner p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #1e3a5f;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #16314f;
+}
+
+.conteudo {
+    max-width: 800px;
+    margin: auto;
+}
+
+.foto {
+    width: 200px;
+    border-radius: 10px;
+    margin: 20px 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card {
+    background-color: white;
+}
+    
+
+   .galeria {
+<style> {
+      \\Galeria de fotos com minhas imagens no trabalho voluntário
+      
+      div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        div img {
+            width: 150px;
+            height: 180px;
+            border: 1px solid #ffffffff;
+            border-radius: 13px;
+            box-shadow: 2px 5px 5px 0px; 
+            cursor: pointer;
+            margin: 5px;
+          
+                } }
+       </style>
+            }
+   
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 500px;
+    margin: auto;
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+textarea
+ {
+    width: 100%;
+}
+button{
+    width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+input,
+textarea {
+    margin-bottom: -15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #1e3a5f;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+/* Tema escuro */
+.dark {
+    background-color: #121212;
+    color: white;
+}
+
+.dark .card {
+    background-color: #1f1f1f;
+    color: white;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .banner h2 {
+        font-size: 28px;
+    }
+}
+
+.galeria {
+
+}

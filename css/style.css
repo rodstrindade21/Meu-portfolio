@@ -87,32 +87,6 @@ button:hover {
 .card {
     background-color: white;
 }
-    
-
-   .galeria {
-<style> {
-      \\Galeria de fotos com minhas imagens no trabalho voluntário
-      
-      div {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-wrap: wrap;
-        }
-        div img {
-            width: 150px;
-            height: 180px;
-            border: 1px solid #ffffffff;
-            border-radius: 13px;
-            box-shadow: 2px 5px 5px 0px; 
-            cursor: pointer;
-            margin: 5px;
-          
-                } }
-       </style>
-            }
-   
-
 form {
     display: flex;
     flex-direction: column;
@@ -174,8 +148,4 @@ footer {
     .banner h2 {
         font-size: 28px;
     }
-}
-
-.galeria {
-
 }
